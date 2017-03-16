@@ -1,4 +1,4 @@
-#guest
+# guest
 >a faster and better alternative for chrome incognito mode
 
 ### What it is?
