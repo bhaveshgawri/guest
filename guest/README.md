@@ -13,10 +13,8 @@ First download the  [chromedriver](https://chromedriver.storage.googleapis.com/i
 $sudo cp ~/Downloads/chromedriver /usr/bin/
 $sudo chmod +x /usr/bin/chromedriver
 ```
-Now, there are 2 ways:
 
-* Download the binary from [here](https://drive.google.com/open?id=0B1o2cfjSr08fS0xlN2NhcERYSVU), 
-copy it to /usr/bin and give it +x permission.
+* Download the script, copy it to /usr/bin and give it +x permission.
 ```
 $sudo mv ~/Downloads/guest /usr/bin
 $sudo chmod +x /usr/bin/guest
@@ -26,20 +24,10 @@ to run it use
 $guest
 ```
 and it will start an anonymous session.
-
-Another way:
-
-* Get the code, install selenium,
-and run the code as a python script.
+See help for more options.
 ```
-$sudo pip3 install -U selenium
-
+$ guest --help
 ```
-to run it
-```
-$python3 ~/path_to_script/guest.py
-```
-this will also start an anonymous session.
 
 ### Other Prerequisites
-You must have [google-chrome](https://www.google.com/chrome/browser/desktop/index.html) installed.
+You must have latest version of [google-chrome](https://www.google.com/chrome/browser/desktop/index.html) installed.
