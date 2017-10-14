@@ -4,7 +4,7 @@
 ### What it is?
 * python script to start an anonymous google chrome session from terminal
 * runs the chrome using chromedriver
-* deletes the data(everything) after the browser is closed.
+* deletes the browsing data after the browser is closed.
 
 ### How should I use it?
 
