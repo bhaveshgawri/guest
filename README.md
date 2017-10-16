@@ -13,7 +13,7 @@
 $sudo cp ~/Downloads/chromedriver /usr/bin/
 $sudo chmod +x /usr/bin/chromedriver
 ```
-* You need to install Selenium
+* You need to install `selenium`
 ```
 sudo pip install -U selenium
 ```
@@ -25,8 +25,10 @@ $sudo chmod +x /usr/bin/guest
 to run it use and it will start an anonymous session.
 See help for more options.
 ```
-$guest
-$guest --help
+$guest          # open google.com
+$guest -f       # open facebook.com
+$guest -yf      # open youtube.com and facebook.com in different tabs
+$guest --help   # see all available arguments
 ```
 
 ### Other Prerequisites
